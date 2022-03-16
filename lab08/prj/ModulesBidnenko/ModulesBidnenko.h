@@ -1,0 +1,6 @@
+#ifndef MODULESBIDNENKO_H_INCLUDED
+#define MODULESBIDNENKO_H_INCLUDED
+
+int s_calculation(int x, int z);
+
+#endif // MODULESBIDNENKO_H_INCLUDED
