@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1647715203 source:c:\users\user\desktop\kism\bmtp\bidnenko-pavlo-ki-21-1\lab08\prj\testdriver\main.cpp
+	<iostream>
+	<iomanip>
+	<windows.h>
+	"ModulesBidnenko.h"
+
+1647462974 c:\users\user\desktop\kism\bmtp\bidnenko-pavlo-ki-21-1\lab08\prj\modulesbidnenko\modulesbidnenko.h
+
