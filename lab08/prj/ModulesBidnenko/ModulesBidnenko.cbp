@@ -35,9 +35,7 @@
 			</Target>
 		</Build>
 		<Unit filename="ModulesBidnenko.h" />
-		<Unit filename="main.cpp">
-			<Option compilerVar="CC" />
-		</Unit>
+		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
