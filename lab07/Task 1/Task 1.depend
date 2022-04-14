@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1649960039 source:c:\users\user\desktop\kntu\bmtp\bidnenko-pavlo-ki-21-1\lab07\task 1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<locale.h>
+	<wchar.h>
+	<ctype.h>
+	<fcntl.h>
+	<io.h>
+
