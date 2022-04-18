@@ -30,7 +30,7 @@ void info()
 
 void inputWithInfoAndSerch()
 {
-    wprintf(L"Введіть речення українскою або аглійською мовою, яке закінчується сиволами . або ! або ? \n");
+    wprintf(L"Введіть речення, яке закінчується сиволами . або ! або ? \n");
     fgetws(inputSentence, 255, stdin);
     for(int i = 0; i < 255; i++)
     {
