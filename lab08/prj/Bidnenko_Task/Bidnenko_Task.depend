@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1648667211 source:c:\users\user\desktop\kntu\bmtp\bidnenko-pavlo-ki-21-1\lab08\prj\bidnenko_task\main.cpp
+	<iostream>
+	<clocale>
+	<iomanip>
+	<cstring>
+	"ModulesBidnenko.h"
+
+1647466574 c:\users\user\desktop\kntu\bmtp\bidnenko-pavlo-ki-21-1\lab08\prj\modulesbidnenko\modulesbidnenko.h
+

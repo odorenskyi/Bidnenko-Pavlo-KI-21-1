@@ -41,11 +41,30 @@ void inputWithInfoAndSerch()
         }
         cuttedSentence[i] = inputSentence[i];
     }
+    for(int i = 0; i < 255; i++)
+    {
+        inputSentence[i] = cuttedSentence[i];
+    }
+}
+
+wchar_t *removeSpaces(wchar_t *str)
+{
+	int i = 0, j = 0;
+	while (str[i])
+	{
+		if (str[i] != L' ')
+          str[j++] = str[i];
+		i++;
+	}
+	str[j] = L'\0';
+	return str;
 }
 
 void founder()
 {
-    wchar_t *lowerMainString = cuttedSentence;
+    wchar_t *lowerMainString;
+    lowerMainString = removeSpaces(inputSentence);
+
     wchar_t *developer = L"девелопер";
     wchar_t *findWord = strstr(lowerMainString, developer);
 
@@ -53,7 +72,7 @@ void founder()
         wprintf(L"Строка є\n");
     }
     else {
-        wprintf(L"Строки німа\n");
+        wprintf(L"Строки немає\n");
     }
 }
 
